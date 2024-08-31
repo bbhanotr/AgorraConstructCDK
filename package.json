@@ -1,9 +1,7 @@
 {
-  "name": "agorra_construct_cdk",
+  "name": "agorra-construct-cdk",
   "version": "0.1.0",
-  "bin": {
-    "agorra_construct_cdk": "bin/agorra_construct_cdk.js"
-  },
+ "main": "lib/index.js",
   "scripts": {
     "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
     "cdk": "cdk",
@@ -14,7 +12,8 @@
     "jest": "^29.7.0"
   },
   "dependencies": {
-    "aws-cdk-lib": "2.155.0",
-    "constructs": "^10.0.0"
+    "aws-cdk-lib": "^2.155.0",
+    "constructs": "^10.3.0",
+    "dotenv": "^16.4.5"
   }
 }
